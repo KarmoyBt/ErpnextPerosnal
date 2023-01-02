@@ -8,6 +8,8 @@ COPY repos ../apps
 USER root
 
 RUN install-app castlecraft && \
-    install-app microsoft_integration
+    install-app microsoft_integration && \
+    install-app hrms
+
 
 USER frappe
